@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    src: url(BankGothic.ttf);
+    font-family: BankGothic;
+}
+
+body {
+    background: #15273D;
+    font-family: Arial, Helvetica, sans-serif;
+    color: whitesmoke;
+    overflow: hidden;
+    line-height: 1.6rem;
+}
+
+.font {
+    font-family: BankGothic;
+}
+
+a {
+    text-decoration: none;
+    color: beige;
+}
+
+.button-1 {
+    border: 3px solid #b7d2ec;
+}
+
+.button-2 {
+    background: #144069;
+}
+
+/* NavBar */
+.top-panel {
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem 7rem 0 10rem; 
+}
+
+.top-panel ul {
+    display: flex;
+}
+
+.top-panel h1 {
+    margin: 0.5rem;
+}
+
+.top-panel h1 #xdesign {
+    font-size: larger;
+    font-style: italic;
+}
+
+.top-panel ul li {
+    display: block;
+    margin: 0.5rem;
+    padding: 0.5rem 1rem ;
+    background: #163a5c;
+    border-radius: 1rem;
+    transition: 300ms;
+}
+
+.top-panel ul li:hover{
+    transform: translateY(0.4rem);
+    background: #1a466e;
+}
+
+
+/* Main Section */
+main {
+    display: flex;
+    margin: 2rem;
+    justify-content: space-around;
+}
+
+main .left {
+    padding: 8rem;
+}
+
+main .left .title {
+    margin: 1rem 1rem 2rem 0;
+}
+
+main .left .title h1,
+main .left .title h3 {
+    margin: 0.5rem 0.5rem 0.5rem 0;
+}
+
+main .left .title h3 {
+    color: #b7d2ec;
+    width: max-content;
+    padding: 0.5rem 0.5rem 0.5rem 0;
+    border-style: solid;
+    border-width: 0 0 2px 0;
+}
+
+main .left p{
+    width: 30rem;
+    padding: 0 1rem 1rem 0;
+}
+
+
+main .left .buttons{
+    display: flex;
+    transform: translateX(-1rem) translateY(1rem);
+}
+
+main .left .buttons li{
+    display: inline;
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: 2rem;
+    transition: 300ms;
+}
+
+main .left .buttons li:hover{
+    background: #06668b;
+    transform: scale(1.2);
+}
+
+main .left .social {
+    display: flex;
+}
+
+main .left .social li{
+    display: block;
+    text-align: center;
+    margin: 2rem 0.7rem;
+    height: 2.5rem;
+    width: 2.5rem;
+    border-radius: 50%;
+    background-color: rgb(48, 76, 117);
+    transition: 300ms;
+}
+
+main .left .social li i{
+    text-align: center;
+    font-size: 1.4rem;
+    padding: 0.5rem;
+}
+
+main .left .social li:hover {
+    background-color: #12a1e4;
+    transform: scale(1.4);
+}
+
+main .right img{
+    padding: 3rem 4rem 0 0;
+    transition: 800ms;
+}
+
+main .right img:hover {
+    transform: rotate(360deg);
+}
