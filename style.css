@@ -9,14 +9,6 @@
     font-family: BankGothic;
 }
 
-body {
-    background: #15273D;
-    font-family: Arial, Helvetica, sans-serif;
-    color: whitesmoke;
-    overflow: hidden;
-    line-height: 1.6rem;
-}
-
 .font {
     font-family: BankGothic;
 }
@@ -34,23 +26,37 @@ a {
     background: #144069;
 }
 
+body {
+    background-color: #1998d3;
+    font-family: Arial, Helvetica, sans-serif;
+    color: whitesmoke;
+    overflow: hidden;
+    line-height: 1.6rem;
+}
+
+.container {
+    max-width: 80vw;
+    height: 100vh;
+    margin: auto; 
+}
+
 /* NavBar */
 .top-panel {
     display: flex;
     justify-content: space-between;
-    margin: 1rem 7rem 0 10rem; 
 }
 
 .top-panel ul {
     display: flex;
+    margin: 1.5rem;
 }
 
 .top-panel h1 {
-    margin: 0.5rem;
+    margin: 1.5rem 2.2rem;
 }
 
 .top-panel h1 #xdesign {
-    font-size: larger;
+    font-size: 3rem;
     font-style: italic;
 }
 
@@ -59,7 +65,7 @@ a {
     margin: 0.5rem;
     padding: 0.5rem 1rem ;
     background: #163a5c;
-    border-radius: 1rem;
+    border-radius: 2rem;
     transition: 300ms;
 }
 
@@ -77,39 +83,36 @@ main {
 }
 
 main .left {
-    padding: 8rem;
-}
-
-main .left .title {
-    margin: 1rem 1rem 2rem 0;
-}
-
-main .left .title h1,
-main .left .title h3 {
-    margin: 0.5rem 0.5rem 0.5rem 0;
+    padding: 8rem 3rem 0 3rem;
+    text-align: left;
+    
 }
 
 main .left .title h3 {
-    color: #b7d2ec;
+    margin: 0 0 1rem 0;
+}
+
+main .left .title h3 {
+    color: #bcc9d6;
     width: max-content;
-    padding: 0.5rem 0.5rem 0.5rem 0;
+    padding: 0.5rem 0;
     border-style: solid;
     border-width: 0 0 2px 0;
 }
 
 main .left p{
     width: 30rem;
-    padding: 0 1rem 1rem 0;
+    padding: 1rem 0;
 }
 
 
 main .left .buttons{
     display: flex;
-    transform: translateX(-1rem) translateY(1rem);
+    transform: translateX(-1rem);
 }
 
 main .left .buttons li{
-    display: inline;
+    display: block;
     padding: 1rem;
     margin: 1rem;
     border-radius: 2rem;
@@ -137,21 +140,20 @@ main .left .social li{
 }
 
 main .left .social li i{
-    text-align: center;
     font-size: 1.4rem;
     padding: 0.5rem;
 }
 
 main .left .social li:hover {
-    background-color: #12a1e4;
+    background-color: #05f390;
     transform: scale(1.4);
 }
 
 main .right img{
-    padding: 3rem 4rem 0 0;
+    margin-right: 5rem;
     transition: 800ms;
 }
 
 main .right img:hover {
-    transform: rotate(360deg);
+    transform: rotate(360deg) scale(0);
 }
