@@ -1,0 +1,110 @@
+@media(min-width: 1201px){
+    .container {
+    max-width: 80vw;
+    height: 100vh;
+    margin: auto; 
+    }
+
+    .top-panel {
+    display: flex;
+    justify-content: space-between;
+    animation: animate2 1s forwards ease-in-out;
+}
+
+.top-panel h1 {
+    margin: 1.5rem 2.2rem;
+}
+
+.top-panel ul {
+    display: flex;
+    margin: 1.5rem;
+}
+
+.top-panel ul li {
+    display: block;
+    margin: 0.5rem;
+    padding: 0.5rem 1rem ;
+    border-radius: 2rem;
+}
+
+
+/* Main Section */
+main {
+    display: flex;
+    margin: 2rem;
+    justify-content: space-around;
+}
+
+main .left {
+    padding: 8rem 3rem 0 3rem;
+    text-align: left;
+    animation: animate3 1.5s forwards ease-in-out;
+    }
+
+main .left .title h3 {
+    margin: 0 0 1rem 0;
+}
+
+main .left .title h3 {
+    color: #bcc9d6;
+    width: max-content;
+    padding: 0.5rem 0;
+    border-style: solid;
+    border-width: 0 0 2px 0;
+}
+
+main .left p{
+    width: 30rem;
+    padding: 1rem 0;
+}
+
+
+main .left .buttons{
+    display: flex;
+    transform: translateX(-1rem);
+}
+
+main .left .buttons li{
+    display: block;
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: 2rem;
+    transition: 300ms;
+}
+
+main .left .buttons li:hover{
+    background: #06668b;
+    transform: scale(1.2);
+}
+
+main .left .social {
+    display: flex;
+}
+
+main .left .social li{
+    display: block;
+    text-align: center;
+    margin: 2rem 0.7rem;
+    height: 2.5rem;
+    width: 2.5rem;
+    border-radius: 50%;
+    background-color: rgb(48, 76, 117);
+    transition: 300ms;
+}
+
+main .left .social li i{
+    font-size: 1.4rem;
+    padding: 0.5rem;
+}
+
+main .left .social li:hover {
+    background-color: #05f390;
+    transform: scale(1.4);
+    color: rgb(51, 51, 51);
+}
+
+main .right img{
+    margin-right: 5rem;
+    animation:  animate1 1.5s forwards ease-in-out;
+}
+}

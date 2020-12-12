@@ -1,0 +1,43 @@
+/* Mobile Device */
+@media(max-width: 500px){
+    body
+    
+    .container {
+        max-width: 300px;
+        margin: auto;
+    }
+
+    .top-panel {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .top-panel h1 {
+        padding: 1rem;
+    }
+
+    .top-panel nav ul{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .top-panel nav ul li{
+        display: block;
+        padding: 0.3rem;
+        background: ;
+    }
+
+    main {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    main .left .title {
+        display: none;
+    }
+
+    main .right img{
+        height: 30vh;
+    }
+}
