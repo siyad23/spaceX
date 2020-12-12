@@ -1,0 +1,33 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.picture figure {
+    display: inline;
+}
+
+.picture figure img {
+    height: 1280px;
+    width: 2560px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 2;
+    transition: 600ms;
+}
+
+.picture .original {
+    position: absolute;
+    width: 2560px;
+    height: 1280px;
+    top: 0px;
+    left: 0px;
+    z-index: 0;
+}
+
+.picture figure img:hover{
+    opacity: 0;
+}
+
