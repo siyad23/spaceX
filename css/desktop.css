@@ -1,4 +1,8 @@
 @media(min-width: 1201px){
+
+    body {
+        
+    }
     .container {
     max-width: 80vw;
     height: 100vh;
@@ -103,8 +107,12 @@ main .left .social li:hover {
     color: rgb(51, 51, 51);
 }
 
-main .right img{
+main .right .astronaut{
     margin-right: 5rem;
     animation:  animate1 1.5s forwards ease-in-out;
+}
+
+main .right .quote{
+    display: none;
 }
 }
